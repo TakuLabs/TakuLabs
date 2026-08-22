@@ -64,8 +64,8 @@ Crate-system module originally developed as part of a larger private server core
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/TakuLabs/minecraft-plugin-portfolio/tree/main/plugins/OtakuAuctionHouse">OtakuAuctionHouse</a></h3>
-      <p>Auction house plugin for listing, browsing and buying player items.</p>
+      <h3><a href="https://github.com/TakuLabs/minecraft-plugin-portfolio/tree/main/plugins/SMPShop">SMPShop</a></h3>
+      <p>Server-controlled economy shop with category menus, buy/sell pricing and quantity selection.</p>
       <p><code>Java 21 · Paper · Maven · Vault · YAML</code></p>
     </td>
     <td width="50%" valign="top">
@@ -81,9 +81,9 @@ Crate-system module originally developed as part of a larger private server core
       <p><code>Java 21 · Paper · Maven · JUnit</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/TakuLabs/minecraft-plugin-portfolio/tree/main/plugins/OtakuScoreboard">OtakuScoreboard</a></h3>
-      <p>Configurable scoreboard and tablist plugin with PlaceholderAPI support.</p>
-      <p><code>Java 21 · Paper · Maven · PlaceholderAPI · YAML</code></p>
+      <h3><a href="https://github.com/TakuLabs/minecraft-plugin-portfolio/tree/main/plugins/OtakuAuctionHouse">OtakuAuctionHouse</a></h3>
+      <p>Auction house plugin for player-to-player item listings and purchases.</p>
+      <p><code>Java 21 · Paper · Maven · Vault · YAML</code></p>
     </td>
   </tr>
 </table>
