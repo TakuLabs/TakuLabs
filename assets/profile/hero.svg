@@ -23,8 +23,8 @@
       </feMerge>
     </filter>
     <style>
-      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
-      .sans { font-family: Inter, Segoe UI, Arial, sans-serif; }
+      .mono { font-family: Consolas, Menlo, monospace; }
+      .sans { font-family: Segoe UI, Arial, Helvetica, sans-serif; }
       .muted { fill: #a7b0c0; }
       .white { fill: #f8fafc; }
     </style>
@@ -36,30 +36,10 @@
   <circle cx="184" cy="316" r="116" fill="#22d3ee" opacity="0.08"/>
 
   <rect x="126" y="74" width="948" height="232" rx="18" fill="#08111d" opacity="0.54" stroke="#243044"/>
-  <path d="M172 112H382L430 78H770L818 112H1028" fill="none" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.72" filter="url(#softGlow)"/>
-  <path d="M172 268H408L456 302H744L792 268H1028" fill="none" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.56" filter="url(#softGlow)"/>
-
-  <g filter="url(#softGlow)">
-    <circle cx="172" cy="112" r="4" fill="#22d3ee"/>
-    <circle cx="430" cy="78" r="4" fill="#a78bfa"/>
-    <circle cx="770" cy="78" r="4" fill="#34d399"/>
-    <circle cx="1028" cy="112" r="4" fill="#22d3ee"/>
-    <circle cx="172" cy="268" r="4" fill="#22d3ee"/>
-    <circle cx="456" cy="302" r="4" fill="#a78bfa"/>
-    <circle cx="744" cy="302" r="4" fill="#34d399"/>
-    <circle cx="1028" cy="268" r="4" fill="#22d3ee"/>
-  </g>
 
   <text x="600" y="164" text-anchor="middle" class="sans white" font-size="78" font-weight="800" letter-spacing="6">TAKULABS</text>
-  <text x="600" y="209" text-anchor="middle" class="mono" font-size="22" fill="url(#accent)">Java Backend &amp; Minecraft Systems</text>
-  <text x="600" y="250" text-anchor="middle" class="sans muted" font-size="18">Paper plugins, server tooling, economy systems and platform integrations.</text>
-
-  <g class="mono" font-size="14" text-anchor="middle">
-    <rect x="388" y="326" width="424" height="34" rx="7" fill="#0f172a" stroke="#334155" opacity="0.9"/>
-    <text x="488" y="348" fill="#22d3ee">Java 21</text>
-    <text x="600" y="348" fill="#a78bfa">Paper API</text>
-    <text x="728" y="348" fill="#34d399">Backend Tooling</text>
-  </g>
+  <text x="600" y="209" text-anchor="middle" class="mono" font-size="22" fill="url(#accent)">Java · Backend · Minecraft Systems</text>
+  <text x="600" y="250" text-anchor="middle" class="sans muted" font-size="18">Server systems, plugin architecture, backend integrations and developer tooling.</text>
 
   <rect x="126" y="74" width="948" height="232" rx="18" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0.52">
     <animate attributeName="opacity" values="0.34;0.58;0.34" dur="8s" repeatCount="indefinite"/>

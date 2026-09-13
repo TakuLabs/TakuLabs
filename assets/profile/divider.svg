@@ -19,7 +19,4 @@
   </defs>
   <rect width="1200" height="36" fill="#05070d"/>
   <line x1="80" y1="18" x2="1120" y2="18" stroke="url(#line)" stroke-width="2" filter="url(#glow)"/>
-  <circle cx="248" cy="18" r="3" fill="#22d3ee"/>
-  <circle cx="600" cy="18" r="4" fill="#a78bfa"/>
-  <circle cx="952" cy="18" r="3" fill="#34d399"/>
 </svg>
