@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile/hero.svg" alt="TakuLabs - Minecraft Systems and Backend Development" width="100%">
+  <img src="assets/profile/hero.svg" alt="TakuLabs - Java Backend and Minecraft Systems" width="100%">
 </p>
 
 <p align="center">
@@ -7,9 +7,9 @@
   ·
   <a href="https://github.com/TakuLabs/minecraft-plugin-portfolio/tree/main/plugins/EmpireCrates"><b>EmpireCrates</b></a>
   ·
-  <a href="https://github.com/TakuLabs/minecraft-plugin-portfolio/tree/main/plugins/SMPShop"><b>SMPShop</b></a>
+  <a href="https://github.com/TakuLabs/minecraft-plugin-portfolio/tree/main/plugins/MythicSpawner"><b>MythicSpawner</b></a>
   ·
-  <a href="https://github.com/TakuLabs/minecraft-plugin-portfolio/tree/main/plugins/NovaGuard"><b>NovaGuard</b></a>
+  <a href="https://github.com/TakuLabs/minecraft-plugin-portfolio/tree/main/docs/case-studies"><b>Engineering Notes</b></a>
 </p>
 
 <p align="center">
@@ -21,7 +21,8 @@
   <code>Vault</code>
   <code>PlaceholderAPI</code>
   <code>ProtocolLib</code>
-  <code>ModelEngine</code>
+  <code>JDA</code>
+  <code>JDBC</code>
 </p>
 
 <p align="center">
@@ -36,9 +37,10 @@ TakuLabs is a small development lab for Java-based Minecraft server systems, bac
 | --- | --- |
 | Minecraft server systems | Paper/Bukkit plugins, event-driven features, inventory workflows |
 | Backend architecture | Service layers, persistence boundaries, configuration-driven behavior |
+| Platform integration | Discord bridges, account linking, web backend boundaries |
 | Security tooling | Connection limits, packet-rate handling, whitelist and blacklist flows |
 | Economy and gameplay | Crates, shops, auctions, rewards and player-facing GUI systems |
-| Developer tooling | Maven builds, clean project layouts, tests where they add confidence |
+| Developer tooling | Maven builds, clean project layouts, focused tests |
 
 ## Flagship Project
 
@@ -70,6 +72,17 @@ EmpireCrates is the main public showcase: a configurable Paper crate system with
 
 ## Selected Systems
 
+### [MythicSpawner](https://github.com/TakuLabs/minecraft-plugin-portfolio/tree/main/plugins/MythicSpawner)
+
+Documentation-only showcase for a custom spawner system with persistent item/block state, custom tool behavior and GUI pagination.
+
+`Java 21` · `Paper` · `Maven` · `PersistentDataContainer` · `JUnit`
+
+- Custom spawner pickaxe and converted spawner flow
+- Bukkit `PersistentDataContainer` state on items and blocks
+- Paginated mob-selection GUI
+- Compatibility guard for virtual spawner plugins
+
 ### [SMPShop](https://github.com/TakuLabs/minecraft-plugin-portfolio/tree/main/plugins/SMPShop)
 
 GUI shop system for SMP-style servers with categories, pagination, economy integration and configurable buy/sell behavior.
@@ -94,7 +107,7 @@ Security and infrastructure showcase for connection handling, packet-rate limiti
 
 ### [OtakuAuctionHouse](https://github.com/TakuLabs/minecraft-plugin-portfolio/tree/main/plugins/OtakuAuctionHouse)
 
-Public preview of a larger auction ecosystem currently being redesigned, focused on player item listings and purchase flows.
+Public preview of an auction ecosystem, focused on player item listings and purchase flows.
 
 `Java 21` · `Paper` · `Maven` · `Vault` · `YAML`
 
@@ -114,6 +127,13 @@ Event and scheduler example for restart-safe timed gameplay states with configur
 - Configurable event windows
 - Focused tests for date-related logic
 
+## Engineering Notes
+
+- [SellChest Performance](https://github.com/TakuLabs/minecraft-plugin-portfolio/tree/main/docs/case-studies/sellchest-performance.md)
+- [Discord / Minecraft Platform](https://github.com/TakuLabs/minecraft-plugin-portfolio/tree/main/docs/case-studies/discord-minecraft-platform.md)
+- [Container Optimization](https://github.com/TakuLabs/minecraft-plugin-portfolio/tree/main/docs/case-studies/container-optimization.md)
+- [Bounty Abuse Prevention](https://github.com/TakuLabs/minecraft-plugin-portfolio/tree/main/docs/case-studies/bounty-abuse-prevention.md)
+
 ## Technical Stack
 
 | Layer | Technologies |
@@ -121,7 +141,8 @@ Event and scheduler example for restart-safe timed gameplay states with configur
 | Language and build | `Java 21`, `Maven`, `Git` |
 | Minecraft platform | `Paper API`, `Bukkit API` |
 | Configuration | `YAML`, plugin-specific config models |
-| Integrations | `Vault`, `PlayerPoints`, `PlaceholderAPI`, `ProtocolLib`, `ModelEngine` |
+| Integrations | `Vault`, `PlayerPoints`, `PlaceholderAPI`, `ProtocolLib`, `ModelEngine`, `JDA` |
+| Persistence | YAML files, plugin data folders, JDBC repositories |
 | Testing | `JUnit`, focused service-level tests |
 
 ## Private Core Context
