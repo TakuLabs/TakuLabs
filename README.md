@@ -15,12 +15,8 @@
 <p align="center">
   <code>Java 21</code>
   <code>Paper API</code>
-  <code>Bukkit API</code>
   <code>Maven</code>
-  <code>Vault</code>
   <code>ProtocolLib</code>
-  <code>JDA</code>
-  <code>JDBC</code>
 </p>
 
 <p align="center">
@@ -37,14 +33,14 @@ My portfolio currently includes 51 Minecraft plugins. Larger projects have detai
 
 | Project | Focus |
 | --- | --- |
-| [OtakuEmpireCore](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/plugins/otakuempirecore.md) | Shared core module with economy and GUI systems |
-| [OtakuEmpireCoreSMP](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/plugins/otakuempirecoresmp.md) | SMP-focused shared core with economy and GUI systems |
-| [CookieClicker](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/plugins/cookieclicker.md) | Clicker gameplay systems and persistence |
-| [EmpireCrates](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/plugins/empirecrates.md) | Crate rewards, keys, admin GUI and player progress |
-| [NovaGuard](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/plugins/novaguard.md) | Connection limits and ProtocolLib-backed packet safeguards |
-| [MythicSpawner](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/plugins/mythicspawner.md) | Spawner tooling with persistent item and block state |
-| [TakuRTP](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/plugins/takurtp.md) | Random teleport queue and teleport service |
-| [MythicElevators](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/plugins/mythicelevators.md) | Elevator blocks, movement and configuration |
+| **[OtakuEmpireCore](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/plugins/otakuempirecore.md)** | Shared core module with economy and GUI systems |
+| **[OtakuEmpireCoreSMP](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/plugins/otakuempirecoresmp.md)** | SMP-focused shared core with economy and GUI systems |
+| **[CookieClicker](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/plugins/cookieclicker.md)** | Clicker gameplay systems and persistence |
+| **[EmpireCrates](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/plugins/empirecrates.md)** | Crate rewards, keys, admin GUI and player progress |
+| **[NovaGuard](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/plugins/novaguard.md)** | Connection limits and ProtocolLib-backed packet safeguards |
+| **[MythicSpawner](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/plugins/mythicspawner.md)** | Spawner tooling with persistent item and block state |
+| **[TakuRTP](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/plugins/takurtp.md)** | Random teleport queue and teleport service |
+| **[MythicElevators](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/plugins/mythicelevators.md)** | Elevator blocks, movement and configuration |
 
 <p align="center">
   <a href="https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/plugins/empirecrates.md">
@@ -52,7 +48,7 @@ My portfolio currently includes 51 Minecraft plugins. Larger projects have detai
   </a>
 </p>
 
-<p align="center"><sub>EmpireCrates in-game crate showcase and opening system</sub></p>
+<p align="center"><sub>EmpireCrates in-game showcase</sub></p>
 
 ## Plugins
 
@@ -84,10 +80,12 @@ All 51 plugins are linked below. The full catalog adds versions, categories, tes
 
 ## Engineering Case Studies
 
-- [SellChest Performance](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/case-studies/sellchest-performance.md) - bounded per-tick economy work.
-- [Discord / Minecraft Platform](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/case-studies/discord-minecraft-platform.md) - Paper, Discord, database and web module boundaries.
-- [Container Optimization](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/case-studies/container-optimization.md) - container/hopper hotspot profiling.
-- [Bounty Abuse Prevention](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/case-studies/bounty-abuse-prevention.md) - repeated reward-growth guard design.
+| Case Study | Focus |
+| --- | --- |
+| [SellChest Performance](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/case-studies/sellchest-performance.md) | Per-tick SellChest performance and workload limits |
+| [Discord / Minecraft Platform](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/case-studies/discord-minecraft-platform.md) | Paper, Discord, database and web module boundaries |
+| [Container Optimization](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/case-studies/container-optimization.md) | Container and hopper hotspot profiling |
+| [Bounty Abuse Prevention](https://github.com/TakuLabs/minecraft-plugin-portfolio/blob/main/docs/case-studies/bounty-abuse-prevention.md) | Preventing repeated bounty reward abuse |
 
 ## Technical Stack / Integrations
 
